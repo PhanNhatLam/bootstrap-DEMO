@@ -1,0 +1,32 @@
+/* import font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto|Gugi|Sofia&display=swap');
+
+body {
+	--primary-color: #45ccb8;
+	--light-gray: #2b3032a1;
+	--border: #2b303218;
+	--text-color: #ff686b;
+	--roboto: "Roboto", sans-serif;
+	--gugi: "Gugi", cursive;
+	--sofia: "Sofia", cursive;
+}
+
+.primary-color {
+	color: var(--primary-color);
+}
+
+.bg-primary-color {
+	background-color: var(--primary-color)!important;
+}
+
+.text-color {
+	color: var(--text-color);
+}
+
+.font-roboto {
+	font-family: var(--roboto);
+}
+
+.lightblue {
+	color: lightblue;
+}
