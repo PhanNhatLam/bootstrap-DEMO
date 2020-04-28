@@ -67,10 +67,18 @@ header .site-title {
 	padding: 0 1.3em;
 }
 
-.navbar-nav .search-icon {
-	margin-right: 0 !important;
+.noName {
+	flex-grow: 1;
 }
 
-.navbar-nav .basket-icon {
-	margin-right: 5rem !important;
+@media (min-width: 992px){ 
+	.basket-icon {
+		margin-right: 5rem !important;
+	}
+}
+
+@media (max-width: 991px){ 
+	#navbarNav {
+		position: absolute;
+	}
 }
