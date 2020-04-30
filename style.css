@@ -95,7 +95,7 @@ header .site-title {
 
 .list-item {
 	background-size: cover;
-	height: 250px;
+	height: 300px;
 	position: relative;
 	margin: 0;
 }
@@ -108,17 +108,20 @@ header .site-title {
 	right: 0;
 	display: none;
 	transition: all 0.8s !important;
+	color: #000;
 }
 
 .list-item .overlay .content {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	align-items: flex-end;
+	align-items: center;
 	text-align: bottom;
+	color: #000;
 }
 
-.list-item .overlay h5 {
-	color: white;
+.list-item .overlay .content h5 {
+	color: #000;
 }
 
 .list-item h3 {
