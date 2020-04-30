@@ -23,7 +23,11 @@
   </head>
   <body>
 
-    
+    <div id="back-to-top">
+    	<a href="#">
+    		<i class="fas fa-arrow-up"></i>
+    	</a>
+    </div>
 	<header>
 		<div class="container">
 			<div class="row d-flex align-items-center">
@@ -59,16 +63,19 @@
 				        <a class="nav-link" href="#">TRANG CHỦ<span class="sr-only">(current)</span></a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">NỔI BẬT</a>
+				        <a class="nav-link" href="#noibat">NỔI BẬT</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">BỘ SƯU TẬP</a>
+				        <a class="nav-link" href="#bosuutap">BỘ SƯU TẬP</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">CỬA HÀNG</a>
+				        <a class="nav-link" href="#cuahang">CỬA HÀNG</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">THÔNG TIN</a>
+				        <a class="nav-link" href="#about">ABOUT</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#thongtin">THÔNG TIN THÊM</a>
 				      </li>
 				    </ul>
 				  </div>
@@ -91,7 +98,7 @@
 	<main>
 		<!-- First slider -->
 		<div class="container-fluid">
-			<div class="col-md-12 text-center">
+			<div class="col-md-12 text-center" id="noibat">
 				<h2 class="my-md-3 site-title primary-color text-color">NỔI BẬT</h2>
 			</div>
 			<div class="site-slider">
@@ -129,45 +136,104 @@
 
 		<!-- List item -->
 		<div class="container p-2">
+			<div class="col-md-12 text-center" id="bosuutap">
+				<h2 class="my-md-3 site-title primary-color text-color">Bộ sưu tập</h2>
+			</div>
 			<div class="row">
-				<div class="card col-md-3 col-12" style="width: 18rem;">
-				  <img src="./img/game1.jpg" class="card-img-top position-relative" alt="">
-				  <div class="card-body position-absolute">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary">Go somewhere</a>
-				  </div>
+				<div class="list-item col-md-3 col-sm-6 col-12" style="width: 16rem; background-image: url(./img/game2.jpg);">
+					<h3 style="text-align: center; padding-top: 20px; color: #1d1da8">Mario</h3>
+					<div class="overlay">
+						<div class="content">
+							<h5 style="color: white">Hi</h5>
+						</div>
+					</div>
 				</div>
-				<div class="card col-md-3 col-12" style="width: 18rem;">
-				  <img src="./img/game7.jpg" class="card-img-top position-relative" alt="">
-				  <div class="card-body position-absolute">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary">Go somewhere</a>
-				  </div>
+				<div class="list-item col-md-3 col-sm-6 col-12" style="width: 16rem; background-image: url(./img/game3.jpg);">
+					<h3 style="text-align: center; padding-top: 20px; color: #1d1da8">Mario</h3>
+					<div class="overlay">
+						<div class="content">
+							<h5 style="color: white">Hi</h5>
+						</div>
+					</div>
 				</div>
-				<div class="card col-md-3 col-12" style="width: 18rem;">
-				  <img src="./img/game4.jpg" class="card-img-top position-relative" alt="">
-				  <div class="card-body position-absolute">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary">Go somewhere</a>
-				  </div>
+				<div class="list-item col-md-3 col-sm-6 col-12" style="width: 16rem; background-image: url(./img/game4.jpg);">
+					<h3 style="text-align: center; padding-top: 20px; color: #1d1da8">Mario</h3>
+					<div class="overlay">
+						<div class="content">
+							<h5 style="color: white">Hi</h5>
+						</div>
+					</div>
 				</div>
-				<div class="card col-md-3 col-12" style="width: 18rem;">
-				  <img src="./img/game2.jpg" class="card-img-top position-relative" alt="">
-				  <div class="card-body position-absolute">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary">Go somewhere</a>
-				  </div>
+				<div class="list-item col-md-3 col-sm-6 col-12" style="width: 16rem; background-image: url(./img/game7.jpg);">
+					<h3 style="text-align: center; padding-top: 20px; color: #1d1da8">Mario</h3>
+					<div class="overlay">
+						<div class="content">
+							<h5 style="color: white">Hi</h5>
+						</div>
+					</div>
 				</div>
 			</div>
+		</div>
+
+		<!-- Cua hang -->
+		<div class="container store my-sm-3 ">
+			<div class="info-store">
+				<h2 id="cuahang">Cửa hàng</h2>
+		    	<p>Hiện nay cửa hàng có 1 địa chỉ tại:</p>
+		    	<p>+ Số 12/3/4, Đường 56, Phường 7, Quận 8, TP. ABC</p>
+		  	</div>
+		  	<div class="image-store">
+		    
+		  	</div>
+		</div>
+
+		<div class="container my-2" id="about">
+			<div class="info-about">
+				<p>PNL Store là một website mua bán đĩa game, mã game cho các tựa game đang HOT trên thị trường.</p>
+				<p>Do đây chỉ là nơi buôn bán nhỏ nên chỉ mới cung cấp vài tựa game, tương lai sau này khi đã lớn mạnh và có chỗ đứng trên thị trường thì PNL Store sẽ mang về nhiều tựa game hơn nữa.</p>
+				<p>Cảm ơn các bạn đã ủng hộ PNL Store ^^</p>
+			</div>
+			<div></div>
 		</div>
 	</main>
 
 	<!-- Footer -->
-	<footer></footer>
+	<footer>
+		<div class="footer-top" id="thongtin">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-one p-3">
+						<h3>PNL Store</h3>
+						<p>Đây là 1 cái footer chất lượng... chắc vậy ^^!</p>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-two p-3">
+						<h2>Hello</h2>
+						<ul>
+							<li><a href="#">Sự kiện</a></li>
+							<li><a href="#">Dịch vụ</a></li>
+							<li><a href="#">Chăm sóc khách hàng</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-three p-3">
+						<h2>Theo dõi chúng tôi</h2>
+						<p>Hãy theo dõi chúng tôi qua các đường dẫn bên dưới để có thêm các thông tin mới nhất về PNL Store</p>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 segment-four p-3">
+						<h2>Cập nhật tin tức mới</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error temporibus dolores iste molestiae, labore consectetur ab doloribus reiciendis nam sed!</p>
+						<form action="" class="d-flex">
+							<input type="email">
+							<input type="submit" value="Theo dõi">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p class="footer-bottom-text">&copy; Copyright by PNL.2020</p>
+	</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
